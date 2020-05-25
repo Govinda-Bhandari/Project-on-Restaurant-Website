@@ -1,2 +1,2 @@
 # Project-on-Restaurant-Website
-Semester Project
+Semester Project on Restuarant Website using HTML,CSS,JS,PHP,SQL. 
