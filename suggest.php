@@ -8,7 +8,7 @@
 	
 
 	// Database connection
-	$conn = new mysqli('localhost','root','','user_opinion');
+	$conn = new mysqli('localhost','root','','food');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
@@ -18,9 +18,7 @@
 		$execval = $stmt->execute();
 		echo $execval;
 		echo "thanks for your concern!!!";
-		header("location: index.html")
-		
-		
+		header("location: index.html");
 		$stmt->close();
 		$conn->close();
 	}

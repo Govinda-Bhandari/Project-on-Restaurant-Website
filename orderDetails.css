@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../images/background-r.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height:110vh;
+  }
+ .brand-logo{
+     width: 10%;
+ }
